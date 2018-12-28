@@ -1,7 +1,7 @@
 <?php namespace Propaganistas\LaravelTranslatableBootForms\Tests;
 
-use AdamWathan\BootForms\BootFormsServiceProvider;
-use AdamWathan\BootForms\Facades\BootForm;
+use Galahad\BootForms\BootFormsServiceProvider;
+use Galahad\BootForms\Facades\BootForm;
 use Illuminate\Database\Capsule\Manager as DB;
 use Orchestra\Testbench\TestCase;
 use Propaganistas\LaravelTranslatableBootForms\Facades\TranslatableBootForm;

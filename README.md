@@ -7,7 +7,7 @@
 [![Total Downloads](https://poser.pugx.org/propaganistas/laravel-translatable-bootforms/downloads)](https://packagist.org/packages/propaganistas/laravel-translatable-bootforms)
 [![License](https://poser.pugx.org/propaganistas/laravel-translatable-bootforms/license)](https://packagist.org/packages/propaganistas/laravel-translatable-bootforms)
 
-Make [BootForms](https://github.com/adamwathan/bootforms) work flawlessly with [Laravel Translatable](https://github.com/dimsav/laravel-translatable)!
+Make [BootForms](https://github.com/galahad/bootforms) work flawlessly with [Laravel Translatable](https://github.com/dimsav/laravel-translatable)!
 
 By importing this package, generating translatable forms using BootForms is a breeze.
 
@@ -23,7 +23,7 @@ By importing this package, generating translatable forms using BootForms is a br
 
     ```php
     'providers' => [
-        AdamWathan\BootForms\BootFormsServiceProvider::class,
+        Galahad\BootForms\BootFormsServiceProvider::class,
         Dimsav\Translatable\TranslatableServiceProvider::class,
         ...
         Propaganistas\LaravelTranslatableBootForms\TranslatableBootFormsServiceProvider::class,
@@ -48,7 +48,7 @@ By importing this package, generating translatable forms using BootForms is a br
 
 Simply use the `TranslatableBootForm` Facade as if it were `BootForm`! That's it. Multiple form inputs will now be generated for the locales set in Translatable's configuration file. They will have the corresponding value for each language and will save all of the translations without any code manipulation.
 
-Please review [BootForms' documentation](https://github.com/adamwathan/bootforms#using-bootforms) if you're unsure how to use it.
+Please review [BootForms' documentation](https://github.com/galahad/bootforms#using-bootforms) if you're unsure how to use it.
 
 Example:
 

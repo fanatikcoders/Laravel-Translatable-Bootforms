@@ -1,6 +1,6 @@
 <?php namespace Propaganistas\LaravelTranslatableBootForms\Form;
 
-use AdamWathan\Form\FormBuilder as _FormBuilder;
+use Galahad\Forms\FormBuilder as _FormBuilder;
 
 class FormBuilder extends _FormBuilder
 {

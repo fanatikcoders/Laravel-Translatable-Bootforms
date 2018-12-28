@@ -8,7 +8,7 @@ class TranslatableBootForm
     /**
      * BootForm implementation.
      *
-     * @var \AdamWathan\BootForms\BootForm
+     * @var \Galahad\BootForms\BootForm
      */
     protected $form;
 
