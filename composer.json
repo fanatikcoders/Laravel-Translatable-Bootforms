@@ -1,6 +1,6 @@
 {
     "name": "propaganistas/laravel-translatable-bootforms",
-    "description": "Empowers galahad/bootforms with dimsav/laravel-translatable.",
+    "description": "Empowers galahad/bootforms with astrotomic/laravel-translatable.",
     "keywords": ["laravel", "bootforms", "translatable", "i18n", "form"],
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
         "php": ">=5.5.9",
         "illuminate/support": ">=5.0",
         "galahad/bootforms": "^1.1.2",
-        "dimsav/laravel-translatable": ">=5.0"
+        "astrotomic/laravel-translatable": ">=5.0"
     },
     "require-dev": {
         "orchestra/testbench": "^3.0",
